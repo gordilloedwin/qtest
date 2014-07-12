@@ -4,7 +4,7 @@
 
 GPS gps(0); // initialize gps object, 0 argument means no serial manager...
 
-/*Not all pins on the Leonardo support change interrupts, 
+/*Not   all pins on the Leonardo support change interrupts, 
  so only the following can be used for RX: 
  8, 9, 10, 11, 14 (MISO), 15 (SCK), 16 (MOSI).*/
 SoftwareSerial sserial(8, 9, false);
